@@ -841,7 +841,7 @@ methods:{
        alert(response.error)
      }else{
        alert('Se agregó el StayFile a ' + this.article_to_pack.doublei.articlepack.name)
-       this.$router.go(0);//MAGIA//
+       //this.$router.go(0);//MAGIA//
      }
 
    },
