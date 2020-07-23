@@ -46,6 +46,9 @@
 
     </v-card-subtitle>
 
+    <v-card-subtitle>
+      Fecha de subida: {{currentArticle.fecha}}
+    </v-card-subtitle>
     
 
     <v-card-actions>
@@ -283,7 +286,9 @@
 
     </v-card-subtitle>
 
-      
+          <v-card-subtitle>
+      Fecha de subida: {{currentArticle.fecha}}
+    </v-card-subtitle>
 
 
 
@@ -533,7 +538,9 @@
 
     </v-card-subtitle>
 
-      
+          <v-card-subtitle>
+      Fecha de subida: {{currentArticle.fecha}}
+    </v-card-subtitle>
 
 
 
