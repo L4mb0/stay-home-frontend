@@ -254,7 +254,7 @@ export default {
           alert(reponse_articlepack.error);
         }else{
           alert('El StayPack ' + reponse_articlepack.name + ' se ha creado correctamente');
-            this.$router.go(0);//MAGIA//
+            //this.$router.go(0);//MAGIA//
         }
       },
       async eliminarArticlepack(articlepack){
@@ -275,7 +275,7 @@ export default {
               alert(rpta.error);
             }else{
               alert("Se ha eliminado correctamente el StayPack");
-              this.$router.go(0);//MAGIA//
+              //this.$router.go(0);//MAGIA//
             }
         }
       }
