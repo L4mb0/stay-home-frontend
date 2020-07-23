@@ -51,6 +51,10 @@
         </v-col>
       </v-row>
     </v-card-subtitle>
+    
+        <v-card-subtitle>
+      Fecha de subida: {{currentArticle.fecha}}
+    </v-card-subtitle>
 
     <v-card-actions>
       <v-col>
@@ -153,6 +157,10 @@
 
     </v-card-subtitle>
 
+    <v-card-subtitle>
+      Fecha de subida: {{currentArticle.fecha}}
+    </v-card-subtitle>
+
     <v-card-actions>
      
     
@@ -253,6 +261,9 @@
 
     </v-card-subtitle>
 
+          <v-card-subtitle>
+      Fecha de subida: {{currentArticle.fecha}}
+    </v-card-subtitle>
       
     <v-card-actions>
     
