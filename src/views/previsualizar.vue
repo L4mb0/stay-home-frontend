@@ -231,7 +231,11 @@
 
 <v-container justify="center" >
   <v-col>
-   <pdf :src="currentArticle.link" width="900" height="780" style="border: none;"></pdf>
+   <pdf v-for="i in 3"
+     :key="i"
+     :src="currentArticle.link"
+     :page="i" 
+     width="900" height="780" style="border: none;"></pdf>
 
 </v-col>
 <v-container></v-container>
@@ -301,6 +305,8 @@ import { mapState } from 'vuex';
 
 
 
+
+
 export default {
 
  components: {
@@ -308,6 +314,9 @@ export default {
   },
     
     data: () => ({
+
+      
+       
       show: false,
      
     }),
@@ -320,6 +329,7 @@ export default {
           return this.$store.state.articles.find(ar => ar.article_id == this.$route.params.id)
           },
 
+        
         ...mapState(['currentUser']),
         ...mapState(['articles']),
         ...mapState(['users']),
@@ -332,6 +342,9 @@ export default {
     this.$store.dispatch("loadAll");
     this.$store.dispatch("loadAllArticles");
 
+    
+
+     
    
     },
 
