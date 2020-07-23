@@ -47,7 +47,7 @@
     </v-card-subtitle>
 
     <v-card-subtitle>
-      Fecha de subida: {{currentArticle.fecha}}
+      Fecha de subida: {{currentArticle.localDateTime}}
     </v-card-subtitle>
     
 
@@ -287,7 +287,7 @@
     </v-card-subtitle>
 
           <v-card-subtitle>
-      Fecha de subida: {{currentArticle.fecha}}
+      Fecha de subida: {{currentArticle.localDateTime}}
     </v-card-subtitle>
 
 
@@ -539,7 +539,7 @@
     </v-card-subtitle>
 
           <v-card-subtitle>
-      Fecha de subida: {{currentArticle.fecha}}
+      Fecha de subida: {{currentArticle.localDateTime}}
     </v-card-subtitle>
 
 
